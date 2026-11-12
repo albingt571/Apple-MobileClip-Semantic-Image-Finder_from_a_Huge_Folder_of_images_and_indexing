@@ -19,6 +19,7 @@ Unlike traditional file name search or cloud-dependent photo tools:
 - **Zero Cloud / 100% Local**: No images are ever uploaded; no API keys, cloud subscriptions, or external network requests during indexing or search.
 - **Cutting-Edge Efficiency**: Uses Apple's official **MobileCLIP2-S2** vision-language model—delivering high zero-shot retrieval accuracy with ultra-low latency and tiny memory footprint.
 - **Large-Folder Scale**: Uses a local **FAISS** vector index (`IndexFlatIP`) paired with an **SQLite** database for lightning-fast similarity search across tens of thousands of images.
+- **Real-Time Camera & File Watchdog**: Background observer continuously monitors the folder; incoming photos saved from cameras, capture cards, or downloads are auto-detected, embedded, and added to the index within seconds.
 - **Incremental & Resilient**: Detects modified/added images without re-embedding old ones, purges deleted entries, and safely ignores corrupt or unreadable image formats.
 - **Responsive Desktop GUI**: Native Windows Tkinter UI with multithreaded indexing, dynamic progress reporting, and an interactive thumbnail result gallery with one-click opening.
 
