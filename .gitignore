@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local Index and App Database
+sensie_data/
+test_env_data/
+*.db
+*.db-journal
+*.index
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# OS and Editor files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Cache directories
+.cache/
+hf_cache/
+
